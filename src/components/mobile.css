@@ -1,0 +1,51 @@
+.Wrapper{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(75, 180, 145);
+
+    h1{
+        background-color: rgb(18, 77, 57);
+        color: rgb(27, 235, 235);
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .middle-layer{
+        width: 40%;
+        height: 500px;
+        background-color: rgb(66, 123, 104);
+        border: 4px solid #a8e2d0;
+        border-radius: 7px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .searchbar .search{
+        width: 70%;
+        margin: 60px;
+        padding: 20px;
+        border: 0;
+        border-radius: 12px;
+        color: black;
+    }
+
+    .mobilelist li{
+        list-style: none;
+        width: 60%;
+        margin-left: 42px;
+        padding-right: -49px;
+        color: aliceblue;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    }
+
+    .mobilelist button{
+        width: 60px;
+        background-color: rgb(14, 110, 110);
+        margin: 5px;
+    }
+}
