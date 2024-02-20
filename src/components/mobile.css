@@ -22,6 +22,8 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     .searchbar .search{
@@ -32,7 +34,6 @@
         border-radius: 12px;
         color: black;
     }
-
     .mobilelist li{
         list-style: none;
         width: 60%;
@@ -41,6 +42,7 @@
         color: aliceblue;
         font-size: 20px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+   
     }
 
     .mobilelist button{
