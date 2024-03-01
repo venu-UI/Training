@@ -10,6 +10,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Plan from './pages/Plan';
 import History from './pages/History';
+import User from './customeData/User';
+import UserList from './customeData/UserList';
 
 // import First from './components/First';
 // import Header from './components/Header';
@@ -25,6 +27,8 @@ function App() {
         <Route path='/About/History' element={<History></History>}></Route>
       </Route>
       <Route path='/Contact' element={<Contact/>}></Route>
+      <Route path='/User' element={<User></User>}></Route>
+      <Route path='/User/:userId' element={<UserList/>}></Route>
 
       </Routes>
     {/* <Header></Header> */}

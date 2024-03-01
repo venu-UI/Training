@@ -8,6 +8,7 @@ function Navbar() {
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/About'>About Us</NavLink></li>
             <li><NavLink to='/Contact'>Contact Us</NavLink></li>
+            <li><NavLink to='/User'>User</NavLink></li>
         </ul>
       
     </div>
