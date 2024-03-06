@@ -60,3 +60,10 @@
   border-radius:5px;
   border: 4px solid #494141;
 }
+
+.hookshead{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(196, 246, 30);
+}

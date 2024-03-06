@@ -1,9 +1,10 @@
 import React from 'react'
+import Mobile from '../components/Mobile'
 
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
+     <Mobile></Mobile>
     </div>
   )
 }
